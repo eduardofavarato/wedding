@@ -196,7 +196,7 @@ $(document).ready(function () {
             $('#photos').hide();
             $('#btn-switch-view-to-old').hide();
 
-            $('.hero').css("background-image", "linear-gradient(rgba(20,20,20,0.7), rgba(30,30,30,0.4)), url('../img/hero-old.jpg')");
+            $('.hero').css("background-image", "linear-gradient(rgba(20,20,20,0.7), rgba(30,30,30,0.4)), url('img/hero-old.jpg')");
             $('#down-arrow-link').attr('href', '#quotes');
             $('html, body').animate({ scrollTop: 0 }, 'slow');
 
@@ -222,7 +222,7 @@ $(document).ready(function () {
             $('#photos').show();
             $('#btn-switch-view-to-old').show();
 
-            $('.hero').css("background-image", "linear-gradient(rgba(20, 20, 20, 0.4), rgba(30, 30, 30, 0.4)),url('../img/hero.jpg')");
+            $('.hero').css("background-image", "linear-gradient(rgba(20, 20, 20, 0.4), rgba(30, 30, 30, 0.4)),url('img/hero.jpg')");
             $('#down-arrow-link').attr('href', '#photos');
             $('html, body').animate({ scrollTop: 0 }, 'slow');
 
